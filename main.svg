@@ -1,0 +1,136 @@
+<svg fill="none" viewBox="0 0 800 800" width="800" height="800"
+  xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+				@keyframes rotate {
+					0% {
+						transform: rotate(3deg);
+					}
+					100% {
+						transform: rotate(-3deg);
+					}
+				}
+
+				@keyframes gradientBackground {
+					0% {
+						background-position: 0% 50%;
+					}
+					50% {
+						background-position: 100% 50%;
+					}
+					100% {
+						background-position: 0% 50%;
+					}
+				}
+
+				@keyframes fadeIn {
+					0% {
+						opacity: 0;
+					}
+					66% {
+						opacity: 0;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+
+				.container {
+					font-family:
+						system-ui,
+						-apple-system,
+						'Segoe UI',
+						Roboto,
+						Helvetica,
+						Arial,
+						sans-serif,
+						'Apple Color Emoji',
+						'Segoe UI Emoji';
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+					width: 100%;
+					height: 800px;
+					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+					background-size: 600% 400%;
+					animation: gradientBackground 10s ease infinite;
+					border-radius: 10px;
+					color: white;
+					text-align: center;
+				}
+
+				h1 {
+					font-size: 40px;
+					letter-spacing: 5px;
+					text-transform: uppercase;
+					text-shadow:
+						0 1px 0 #efefef,
+						0 2px 0 #efefef,
+						0 3px 0 #efefef,
+						0 4px 0 #efefef,
+						0 12px 5px rgba(0, 0, 0, 0.1);
+					animation: rotate ease-in-out 1s infinite alternate;
+				}
+
+				ul {
+          color: #fff;
+					text-shadow: 0 2px 0 #666;
+          list-style-type: none;
+					line-height: 1.8em;
+          font-size: 1.2em;
+          background-color: rgba(0, 0, 0, 0.5);
+          padding: 25px;
+          border-radius: 20px;
+				}
+				p {
+					font-size: 50px;
+					letter-spacing: 5px;
+					text-shadow:
+						0 1px 0 #666,
+						0 2px 0 #666,
+						0 3px 0 #666,
+						0 4px 0 #666,
+						0 12px 5px rgba(0, 0, 0, 0.1);
+				}
+        a {
+          color: aqua;
+        }
+        .linkedin {
+          color: lightblue;
+        }
+        .website {
+          color: goldenrod;
+        }
+      </style>
+      <div class="container">
+        <p>I am a </p>
+        <h1>Frontend Engineering Lead <br/>
+        <br/>
+ &amp;<br/>
+      <br/>
+Google Developer Expert 
+    </h1>
+    <br/>
+    <br/>
+    <ul>
+      <li>🔭 I’m currently working on : TypeScript, React, React Native</li>
+      <li>🌱 I’m currently learning : Everything about WEB</li>
+      <li>👯 I’m looking to collaborate on : Svelte, React Projects</li>
+      <li>💬 Ask me about : How to become a GDE</li>
+      <li>📫 How to reach me: <a href="https://twitter.com/shidhincr">@shidhincr</a> | 
+        <a class="linkedin" href="https://www.linkedin.com/in/shidhincr/">shidhin (LinkedIn)</a>
+      </li>
+      <li>⚡ Fun fact: I change my code editor and theme every month</li>
+      <li>🌐        <a class="website" href="https://www.undefinednull.com">https://www.undefinednull.com</a>
+      </li>
+    </ul>
+    <br/>
+    <br/>
+    <br/>
+  </div>
+</div>
+</foreignObject>
+</svg>
