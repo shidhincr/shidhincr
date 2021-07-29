@@ -1,5 +1,3 @@
 <div align="center">
-	<br>
-		<img src="main.svg" width="800" height="800">
-	<br>
+	<img src="https://pbs.twimg.com/profile_banners/91286740/1604998081/1500x500" />
 </div>
